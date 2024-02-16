@@ -3,6 +3,33 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2021 Froala Labs
  */
+.box-missao{
+  margin-top: -100px;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.box-missao .item-missao{
+  display: block;
+  margin-bottom: 10px;
+}
+.box-missao .item-missao .conte{
+  background-color: #07f;
+  margin: 0px 5px;
+  padding: 20px 0px 0px 0px;
+  box-sizing: border-box;
+}
+.box-missao .item-missao .item-missao-titulo {
+  color: #fed91f;
+  font-size: 22px;
+  font-weight: normal;
+  margin-top: 0px;
+  padding: 0px 20px 0px 20px;
+}
+.box-missao .item-missao .item-missao-img {
+  background-position: center bottom;
+  background-size: 100% auto;
+  background-repeat: no-repeat;}
 
 .fr-clearfix::after {
   clear: both;
